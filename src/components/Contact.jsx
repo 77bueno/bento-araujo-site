@@ -5,7 +5,8 @@ const contactInfo = [
   { icon: MapPin,        label: 'Endereço',         text: 'R. Caquito, 196 — Penha de França, São Paulo/SP' },
   { icon: MessageCircle, label: 'Dr. Samuel (WA)',   text: '(11) 94730-5581',  href: 'https://wa.me/5511947305581' },
   { icon: MessageCircle, label: 'Dr. Michel (WA)',   text: '(11) 94735-9889',  href: 'https://wa.me/5511947359889' },
-  { icon: Mail,          label: 'E-mail',            text: 'samuel-js@hotmail.com', href: 'mailto:samuel-js@hotmail.com' },
+  { icon: Mail,          label: 'E-mail Dr. Samuel',  text: 'samuel-js@hotmail.com',       href: 'mailto:samuel-js@hotmail.com' },
+  { icon: Mail,          label: 'E-mail Dr. Michel',  text: 'michel.araujo@hotmail.com',   href: 'mailto:michel.araujo@hotmail.com' },
   { icon: Clock,         label: 'Horário',           text: 'Seg. a Sex., das 9h às 18h' },
 ]
 

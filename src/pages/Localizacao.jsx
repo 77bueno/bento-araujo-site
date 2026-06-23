@@ -36,9 +36,16 @@ const infos = [
   },
   {
     icon: Mail,
-    label: 'E-mail',
+    label: 'E-mail Dr. Samuel',
     value: 'samuel-js@hotmail.com',
     link: 'mailto:samuel-js@hotmail.com',
+    linkLabel: 'Enviar e-mail',
+  },
+  {
+    icon: Mail,
+    label: 'E-mail Dr. Michel',
+    value: 'michel.araujo@hotmail.com',
+    link: 'mailto:michel.araujo@hotmail.com',
     linkLabel: 'Enviar e-mail',
   },
 ]
