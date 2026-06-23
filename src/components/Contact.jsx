@@ -1,17 +1,13 @@
 import { useState } from 'react'
 import { MapPin, MessageCircle, Mail, Clock } from 'lucide-react'
 
-const lawyers = [
-  {
-    name: 'Dr. Samuel José da Silva',
-    wa: { text: '(11) 94730-5581', href: 'https://wa.me/5511947305581' },
-    email: { text: 'samuel-js@hotmail.com', href: 'mailto:samuel-js@hotmail.com' },
-  },
-  {
-    name: 'Dr. Michel Anderson de Araújo',
-    wa: { text: '(11) 94735-9889', href: 'https://wa.me/5511947359889' },
-    email: { text: 'michel.araujo@hotmail.com', href: 'mailto:michel.araujo@hotmail.com' },
-  },
+const contactInfo = [
+  { icon: MapPin,        label: 'Endereço',          text: 'R. Caquito, 196 — Penha de França, São Paulo/SP' },
+  { icon: MessageCircle, label: 'Dr. Samuel (WA)',    text: '(11) 94730-5581',           href: 'https://wa.me/5511947305581' },
+  { icon: Mail,          label: 'E-mail Dr. Samuel',  text: 'samuel-js@hotmail.com',     href: 'mailto:samuel-js@hotmail.com' },
+  { icon: MessageCircle, label: 'Dr. Michel (WA)',    text: '(11) 94735-9889',           href: 'https://wa.me/5511947359889' },
+  { icon: Mail,          label: 'E-mail Dr. Michel',  text: 'michel.araujo@hotmail.com', href: 'mailto:michel.araujo@hotmail.com' },
+  { icon: Clock,         label: 'Horário',            text: 'Seg. a Sex., das 9h às 18h' },
 ]
 
 const areaOptions = [
@@ -57,31 +53,16 @@ export default function Contact() {
           <p>Agende uma consulta ou envie sua dúvida. Retornaremos o mais breve possível.</p>
 
           <ul className="contact-list">
-            <li>
-              <MapPin size={17} strokeWidth={1.8} />
-              <span>R. Caquito, 196 — Penha de França, São Paulo/SP</span>
-            </li>
-            <li>
-              <Clock size={17} strokeWidth={1.8} />
-              <span>Seg. a Sex., das 9h às 18h</span>
-            </li>
-          </ul>
-
-          <div className="contact-lawyers">
-            {lawyers.map(({ name, wa, email }) => (
-              <div key={name} className="contact-lawyer-block">
-                <span className="contact-lawyer-name">{name}</span>
-                <a href={wa.href} target="_blank" rel="noopener noreferrer" className="contact-lawyer-row">
-                  <MessageCircle size={15} strokeWidth={1.8} />
-                  {wa.text}
-                </a>
-                <a href={email.href} className="contact-lawyer-row">
-                  <Mail size={15} strokeWidth={1.8} />
-                  {email.text}
-                </a>
-              </div>
+            {contactInfo.map(({ icon: Icon, label, text, href }) => (
+              <li key={label}>
+                <Icon size={17} strokeWidth={1.8} />
+                {href
+                  ? <a href={href} target={href.startsWith('https') ? '_blank' : undefined} rel="noopener noreferrer">{text}</a>
+                  : <span>{text}</span>
+                }
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
 
         <form className="contact-form" onSubmit={handleSubmit} noValidate>
