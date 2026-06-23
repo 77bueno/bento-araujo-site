@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, Navigation } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, Navigation, MessageCircle } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import PageBanner from '../components/PageBanner'
 import FadeIn from '../components/FadeIn'
@@ -20,33 +20,18 @@ const infos = [
     label: 'Horário de atendimento',
     value: 'Segunda a sexta: 9h às 18h\nSábados: mediante agendamento',
   },
+]
+
+const lawyers = [
   {
-    icon: Phone,
-    label: 'Dr. Samuel — WhatsApp',
-    value: '(11) 94730-5581',
-    link: 'https://wa.me/5511947305581',
-    linkLabel: 'Enviar mensagem',
+    name: 'Dr. Samuel José da Silva',
+    wa:    { icon: MessageCircle, value: '(11) 94730-5581',        link: 'https://wa.me/5511947305581',      linkLabel: 'WhatsApp' },
+    email: { icon: Mail,          value: 'samuel-js@hotmail.com',  link: 'mailto:samuel-js@hotmail.com',     linkLabel: 'E-mail' },
   },
   {
-    icon: Mail,
-    label: 'E-mail Dr. Samuel',
-    value: 'samuel-js@hotmail.com',
-    link: 'mailto:samuel-js@hotmail.com',
-    linkLabel: 'Enviar e-mail',
-  },
-  {
-    icon: Phone,
-    label: 'Dr. Michel — WhatsApp',
-    value: '(11) 94735-9889',
-    link: 'https://wa.me/5511947359889',
-    linkLabel: 'Enviar mensagem',
-  },
-  {
-    icon: Mail,
-    label: 'E-mail Dr. Michel',
-    value: 'michel.araujo@hotmail.com',
-    link: 'mailto:michel.araujo@hotmail.com',
-    linkLabel: 'Enviar e-mail',
+    name: 'Dr. Michel Anderson de Araújo',
+    wa:    { icon: MessageCircle, value: '(11) 94735-9889',            link: 'https://wa.me/5511947359889',          linkLabel: 'WhatsApp' },
+    email: { icon: Mail,          value: 'michel.araujo@hotmail.com',  link: 'mailto:michel.araujo@hotmail.com',     linkLabel: 'E-mail' },
   },
 ]
 
@@ -102,6 +87,29 @@ export default function Localizacao() {
                             {linkLabel} →
                           </a>
                         )}
+                      </div>
+                    </div>
+                  ))}
+
+                  {lawyers.map(({ name, wa, email }) => (
+                    <div key={name} className="loc-card loc-card-lawyer">
+                      <div className="loc-card-icon">
+                        <Phone size={18} strokeWidth={1.8} />
+                      </div>
+                      <div className="loc-card-body">
+                        <span className="loc-card-label">{name}</span>
+                        <div className="loc-lawyer-row">
+                          <wa.icon size={14} strokeWidth={1.8} />
+                          <a href={wa.link} target="_blank" rel="noopener noreferrer" className="loc-card-link" style={{ margin: 0 }}>
+                            {wa.value}
+                          </a>
+                        </div>
+                        <div className="loc-lawyer-row">
+                          <email.icon size={14} strokeWidth={1.8} />
+                          <a href={email.link} className="loc-card-link" style={{ margin: 0 }}>
+                            {email.value}
+                          </a>
+                        </div>
                       </div>
                     </div>
                   ))}

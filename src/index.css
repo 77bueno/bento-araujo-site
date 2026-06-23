@@ -633,6 +633,10 @@ a:hover { color: var(--gold); }
   transition: color .2s;
 }
 .loc-card-link:hover { color: var(--gold-light); }
+.loc-lawyer-row {
+  display: flex; align-items: center; gap: 7px; margin-top: 6px;
+}
+.loc-lawyer-row svg { color: var(--gold); flex-shrink: 0; }
 @media (max-width: 900px) {
   .loc-layout { grid-template-columns: 1fr; gap: 40px; }
   .loc-map-wrapper { position: static; height: 360px; }
