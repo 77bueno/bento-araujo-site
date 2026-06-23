@@ -3,9 +3,9 @@ import { MapPin, MessageCircle, Mail, Clock } from 'lucide-react'
 
 const contactInfo = [
   { icon: MapPin,        label: 'Endereço',          text: 'R. Caquito, 196 — Penha de França, São Paulo/SP' },
-  { icon: MessageCircle, label: 'Dr. Samuel (WA)',    text: '(11) 94730-5581',           href: 'https://wa.me/5511947305581' },
+  { icon: MessageCircle, label: 'Dr. Samuel (WA)',    text: '(11) 94730-5581',           href: 'https://wa.me/5511947305581', noDivider: true },
   { icon: Mail,          label: 'E-mail Dr. Samuel',  text: 'samuel-js@hotmail.com',     href: 'mailto:samuel-js@hotmail.com' },
-  { icon: MessageCircle, label: 'Dr. Michel (WA)',    text: '(11) 94735-9889',           href: 'https://wa.me/5511947359889' },
+  { icon: MessageCircle, label: 'Dr. Michel (WA)',    text: '(11) 94735-9889',           href: 'https://wa.me/5511947359889', noDivider: true },
   { icon: Mail,          label: 'E-mail Dr. Michel',  text: 'michel.araujo@hotmail.com', href: 'mailto:michel.araujo@hotmail.com' },
   { icon: Clock,         label: 'Horário',            text: 'Seg. a Sex., das 9h às 18h' },
 ]
@@ -53,8 +53,8 @@ export default function Contact() {
           <p>Agende uma consulta ou envie sua dúvida. Retornaremos o mais breve possível.</p>
 
           <ul className="contact-list">
-            {contactInfo.map(({ icon: Icon, label, text, href }) => (
-              <li key={label}>
+            {contactInfo.map(({ icon: Icon, label, text, href, noDivider }) => (
+              <li key={label} className={noDivider ? 'no-divider' : ''}>
                 <Icon size={17} strokeWidth={1.8} />
                 {href
                   ? <a href={href} target={href.startsWith('https') ? '_blank' : undefined} rel="noopener noreferrer">{text}</a>

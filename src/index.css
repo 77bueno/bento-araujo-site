@@ -234,6 +234,8 @@ a:hover { color: var(--gold); }
   display: flex; align-items: center; gap: 12px;
   padding: 14px 0; border-bottom: 1px solid var(--line); font-size: .98rem;
 }
+.contact-list li.no-divider { border-bottom: none; padding-bottom: 4px; }
+.contact-list li.no-divider + li { padding-top: 4px; }
 .contact-list svg { color: var(--gold); flex-shrink: 0; }
 .contact-list span { color: var(--body); }
 .contact-list a { color: var(--body); }
