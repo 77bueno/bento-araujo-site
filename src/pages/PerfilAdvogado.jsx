@@ -15,7 +15,7 @@ const lawyers = {
     motto: '"A defesa dos direitos começa com escuta, rigor técnico e comprometimento total com cada caso."',
     specialties: ['Direito Criminal', 'Direito Civil'],
     bio: [
-      'Dr. Samuel José da Silva é advogado formado pela Uniban São Paulo em 2011, com mais de 14 anos de experiência na defesa de pessoas físicas e jurídicas. Atua em Direito Criminal e Civil, conduzindo casos de alta complexidade em todas as instâncias da Justiça Estadual e Federal.',
+      'Dr. Samuel José da Silva é advogado formado pela Uniban São Paulo em 2011, com mais de 15 anos de experiência na defesa de pessoas físicas e jurídicas. Atua em Direito Criminal e Civil, conduzindo casos de alta complexidade em todas as instâncias da Justiça Estadual e Federal.',
       'Ao longo da carreira, construiu sólida reputação pela dedicação na defesa de seus clientes, aliando conhecimento técnico aprofundado à clareza na comunicação. Dr. Samuel acredita que cada caso merece atenção individualizada e que a excelência jurídica nasce do compromisso genuíno com quem precisa de defesa.',
     ],
     formation: [
@@ -32,7 +32,7 @@ const lawyers = {
     motto: '"Defender direitos é uma responsabilidade que exige preparo, ética e presença em cada etapa do processo."',
     specialties: ['Direito Civil', 'Direito Trabalhista'],
     bio: [
-      'Dr. Michel Anderson de Araújo é advogado formado pela Uniban São Paulo em 2011, com mais de 14 anos de experiência em Direito Civil e Trabalhista. Atua na defesa de trabalhadores e empresas em ações de rescisão, indenizações, conflitos contratuais e demais demandas cíveis.',
+      'Dr. Michel Anderson de Araújo é advogado formado pela Uniban São Paulo em 2011, com mais de 15 anos de experiência em Direito Civil e Trabalhista. Atua na defesa de trabalhadores e empresas em ações de rescisão, indenizações, conflitos contratuais e demais demandas cíveis.',
       'Reconhecido pela postura firme e pelo atendimento próximo ao cliente, Dr. Michel conduz cada processo com atenção aos detalhes e foco no resultado. Sua atuação abrange tanto a esfera judicial quanto a negociação extrajudicial, buscando sempre a solução mais eficiente para cada situação.',
     ],
     formation: [

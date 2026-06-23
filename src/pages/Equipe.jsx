@@ -14,7 +14,7 @@ const lawyers = [
     role: 'Sócio Fundador',
     oab: 'OAB/SP 305.899',
     specialties: ['Direito Criminal', 'Direito Civil'],
-    bio: 'Advogado formado pela Uniban São Paulo em 2011, com mais de 14 anos de experiência em Direito Criminal e Civil. Atua na defesa de clientes em processos criminais, ações cíveis e responsabilidade civil, com histórico sólido em todas as instâncias.',
+    bio: 'Advogado formado pela Uniban São Paulo em 2011, com mais de 15 anos de experiência em Direito Criminal e Civil. Atua na defesa de clientes em processos criminais, ações cíveis e responsabilidade civil, com histórico sólido em todas as instâncias.',
   },
   {
     slug: 'michel-araujo',
@@ -24,7 +24,7 @@ const lawyers = [
     role: 'Sócio Fundador',
     oab: 'OAB/SP 320.458',
     specialties: ['Direito Civil', 'Direito Trabalhista'],
-    bio: 'Advogado formado pela Uniban São Paulo em 2011, com mais de 14 anos de atuação em Direito Civil e Trabalhista. Especializado na defesa de trabalhadores e empresas em conflitos cíveis, contratos e relações de emprego.',
+    bio: 'Advogado formado pela Uniban São Paulo em 2011, com mais de 15 anos de atuação em Direito Civil e Trabalhista. Especializado na defesa de trabalhadores e empresas em conflitos cíveis, contratos e relações de emprego.',
   },
 ]
 

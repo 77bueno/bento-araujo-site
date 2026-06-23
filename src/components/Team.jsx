@@ -3,13 +3,13 @@ const members = [
     initials: 'SS',
     name: 'Dr. Samuel José da Silva',
     role: 'Sócio fundador · OAB/SP 305.899',
-    bio: 'Formado pela Uniban São Paulo em 2011, com mais de 14 anos de experiência em Direito Criminal e Civil. Defesa técnica e comprometida em todas as instâncias.',
+    bio: 'Formado pela Uniban São Paulo em 2011, com mais de 15 anos de experiência em Direito Criminal e Civil. Defesa técnica e comprometida em todas as instâncias.',
   },
   {
     initials: 'MA',
     name: 'Dr. Michel Anderson de Araújo',
     role: 'Sócio fundador · OAB/SP 320.458',
-    bio: 'Formado pela Uniban São Paulo em 2011, com mais de 14 anos de atuação em Direito Civil e Trabalhista. Atendimento próximo e foco no resultado para cada cliente.',
+    bio: 'Formado pela Uniban São Paulo em 2011, com mais de 15 anos de atuação em Direito Civil e Trabalhista. Atendimento próximo e foco no resultado para cada cliente.',
   },
 ]
 
