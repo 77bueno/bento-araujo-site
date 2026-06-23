@@ -13,7 +13,7 @@ export default function Hero() {
       }}
     >
       <div className="container hero-inner">
-        <p className="eyebrow">Advocacia &middot; Desde 2009</p>
+        <p className="eyebrow">Advocacia &middot; Desde 2011</p>
         <h1>
           Defesa técnica e<br />
           <span className="hero-highlight">compromisso com seus direitos</span>

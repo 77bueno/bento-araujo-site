@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import FadeIn from '../components/FadeIn'
+import livrosImg from '../images/livros.jpg'
 
 const stats = [
   { num: '15+', label: 'anos de experiência' },
@@ -20,7 +21,6 @@ const featuredAreas = [
   { icon: Building2, title: 'Direito Empresarial',  desc: 'Constituição de empresas, contratos, societário e consultoria preventiva.' },
 ]
 
-import livrosImg from '../images/livros.jpg'
 const JUSTICE_IMG = 'https://images.unsplash.com/photo-1521791055366-0d553872952f?w=1920&auto=format&fit=crop&q=80'
 
 function AnimatedStats() {
@@ -110,7 +110,7 @@ export default function Home() {
               "Cada caso é tratado com a seriedade e o rigor<br />
               que os seus direitos merecem."
             </h2>
-            <p className="justice-sub">— Bento &amp; Araújo e Associados, desde 2009</p>
+            <p className="justice-sub">— Bento &amp; Araújo e Associados, desde 2011</p>
           </FadeIn>
         </div>
       </section>

@@ -58,7 +58,7 @@ export default function Sobre() {
             <p className="section-eyebrow">Nossa história</p>
             <h2>Mais de 15 anos construindo resultados</h2>
             <p>
-              Fundado em 2009, o <strong>Bento &amp; Araújo e Associados</strong> nasceu da
+              Fundado em 2011, o <strong>Bento &amp; Araújo e Associados</strong> nasceu da
               parceria entre dois advogados com visões complementares e um objetivo comum: oferecer
               advocacia de alta qualidade técnica com atendimento próximo e humanizado.
             </p>
