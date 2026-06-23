@@ -2,10 +2,11 @@ import { useState } from 'react'
 import { MapPin, Phone, MessageCircle, Mail, Clock } from 'lucide-react'
 
 const contactInfo = [
-  { icon: MapPin,        label: 'Endereço',  text: 'R. Caquito, 196 — Penha de França, São Paulo/SP' },
-  { icon: MessageCircle, label: 'WhatsApp',  text: '(11) 90000-0000',               href: 'https://wa.me/5511900000000' },
-  { icon: Mail,          label: 'E-mail',    text: 'contato@bentoaraujo.adv.br',    href: 'mailto:contato@bentoaraujo.adv.br' },
-  { icon: Clock,         label: 'Horário',   text: 'Seg. a Sex., das 9h às 18h' },
+  { icon: MapPin,        label: 'Endereço',         text: 'R. Caquito, 196 — Penha de França, São Paulo/SP' },
+  { icon: MessageCircle, label: 'Dr. Samuel (WA)',   text: '(11) 94730-5581',  href: 'https://wa.me/5511947305581' },
+  { icon: MessageCircle, label: 'Dr. Michel (WA)',   text: '(11) 94735-9889',  href: 'https://wa.me/5511947359889' },
+  { icon: Mail,          label: 'E-mail',            text: 'samuel-js@hotmail.com', href: 'mailto:samuel-js@hotmail.com' },
+  { icon: Clock,         label: 'Horário',           text: 'Seg. a Sex., das 9h às 18h' },
 ]
 
 const areaOptions = [
@@ -35,7 +36,7 @@ export default function Contact() {
     const body = encodeURIComponent(
       `Nome: ${form.nome}\nE-mail: ${form.email}\nTelefone: ${form.telefone}\n\n${form.mensagem}`
     )
-    window.location.href = `mailto:contato@bentoaraujo.adv.br?subject=${subject}&body=${body}`
+    window.location.href = `mailto:samuel-js@hotmail.com?subject=${subject}&body=${body}`
 
     setStatus('ok')
     setMsg('Obrigado! Abrimos seu aplicativo de e-mail para concluir o envio.')

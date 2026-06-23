@@ -22,16 +22,23 @@ const infos = [
   },
   {
     icon: Phone,
-    label: 'Telefone / WhatsApp',
-    value: '(11) 9 0000-0000',
-    link: 'https://wa.me/5511900000000',
+    label: 'Dr. Samuel — WhatsApp',
+    value: '(11) 94730-5581',
+    link: 'https://wa.me/5511947305581',
+    linkLabel: 'Enviar mensagem',
+  },
+  {
+    icon: Phone,
+    label: 'Dr. Michel — WhatsApp',
+    value: '(11) 94735-9889',
+    link: 'https://wa.me/5511947359889',
     linkLabel: 'Enviar mensagem',
   },
   {
     icon: Mail,
     label: 'E-mail',
-    value: 'contato@bentoearaujo.adv.br',
-    link: 'mailto:contato@bentoearaujo.adv.br',
+    value: 'samuel-js@hotmail.com',
+    link: 'mailto:samuel-js@hotmail.com',
     linkLabel: 'Enviar e-mail',
   },
 ]
