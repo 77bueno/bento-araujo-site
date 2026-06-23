@@ -4,10 +4,9 @@ import { CheckCircle } from 'lucide-react'
 import PageBanner from '../components/PageBanner'
 
 const stats = [
-  { num: '15+', label: 'anos de experiência' },
-  { num: '1.200+', label: 'casos atendidos' },
-  { num: '8', label: 'áreas de atuação' },
-  { num: '95%', label: 'clientes que indicam' },
+  { num: '15+',  label: 'anos de experiência' },
+  { num: '3',    label: 'áreas de atuação' },
+  { num: '2011', label: 'atuando desde' },
 ]
 
 const values = [
@@ -63,14 +62,13 @@ export default function Sobre() {
               advocacia de alta qualidade técnica com atendimento próximo e humanizado.
             </p>
             <p>
-              Ao longo dos anos, o escritório consolidou sua reputação atuando em casos complexos
-              nas áreas civil, empresarial, trabalhista, de família e previdenciária, sempre
-              pautando sua conduta pela ética e pela busca do melhor resultado para o cliente.
+              Ao longo dos anos, o escritório consolidou sua reputação atuando nas áreas
+              Criminal, Civil e Trabalhista, sempre pautando sua conduta pela ética e pela
+              busca do melhor resultado para cada cliente.
             </p>
             <p>
-              Hoje, com uma equipe selecionada de advogados e colaboradores, o escritório alia
-              a solidez da experiência à agilidade das ferramentas digitais, acompanhando processos
-              em tempo real e mantendo o cliente sempre informado.
+              Com atendimento próximo e dedicado, o escritório acompanha cada processo de perto,
+              mantendo o cliente sempre informado e bem orientado em todas as etapas.
             </p>
           </div>
           <AnimatedStats />
