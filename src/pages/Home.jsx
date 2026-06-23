@@ -20,7 +20,7 @@ const featuredAreas = [
   { icon: Building2, title: 'Direito Empresarial',  desc: 'Constituição de empresas, contratos, societário e consultoria preventiva.' },
 ]
 
-const ABOUT_IMG = 'https://images.unsplash.com/photo-1568992688065-536aad8a12f6?w=900&auto=format&fit=crop&q=80'
+import livrosImg from '../images/livros.jpg'
 const JUSTICE_IMG = 'https://images.unsplash.com/photo-1521791055366-0d553872952f?w=1920&auto=format&fit=crop&q=80'
 
 function AnimatedStats() {
@@ -59,11 +59,12 @@ export default function Home() {
           <FadeIn>
             <div className="about-img-wrapper">
               <img
-                src={ABOUT_IMG}
+                src={livrosImg}
                 alt="Biblioteca jurídica — Bento & Araújo e Associados"
                 className="about-img"
                 loading="lazy"
               />
+              <div className="about-img-overlay" />
               <div className="about-img-badge">
                 <span className="about-img-badge-num">15+</span>
                 <span className="about-img-badge-label">anos de<br />excelência</span>
