@@ -239,6 +239,24 @@ a:hover { color: var(--gold); }
 .contact-list a { color: var(--body); }
 .contact-list a:hover { color: var(--gold); }
 
+.contact-lawyers { display: flex; flex-direction: column; gap: 12px; margin-top: 1.5rem; }
+.contact-lawyer-block {
+  border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px 20px; display: flex; flex-direction: column; gap: 10px;
+}
+.contact-lawyer-name {
+  font-family: var(--serif); font-size: 1rem; font-weight: 600;
+  color: var(--ink); padding-bottom: 10px; border-bottom: 1px solid var(--line);
+}
+.contact-lawyer-row {
+  display: flex; align-items: center; gap: 10px;
+  font-size: .9rem; color: var(--body); transition: color .2s;
+}
+.contact-lawyer-row:hover { color: var(--gold); }
+.contact-lawyer-row svg { color: var(--gold); flex-shrink: 0; }
+
+[data-theme="dark"] .contact-lawyer-block { border-color: var(--line); background: var(--bg-alt); }
+
 .contact-form { background: var(--bg-alt); padding: 36px; border-radius: var(--radius); border: 1px solid var(--line); }
 .field { margin-bottom: 18px; }
 .field label { display: block; font-size: .85rem; font-weight: 600; color: var(--ink); margin-bottom: 6px; }
