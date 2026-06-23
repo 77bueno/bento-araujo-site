@@ -28,18 +28,18 @@ const infos = [
     linkLabel: 'Enviar mensagem',
   },
   {
-    icon: Phone,
-    label: 'Dr. Michel — WhatsApp',
-    value: '(11) 94735-9889',
-    link: 'https://wa.me/5511947359889',
-    linkLabel: 'Enviar mensagem',
-  },
-  {
     icon: Mail,
     label: 'E-mail Dr. Samuel',
     value: 'samuel-js@hotmail.com',
     link: 'mailto:samuel-js@hotmail.com',
     linkLabel: 'Enviar e-mail',
+  },
+  {
+    icon: Phone,
+    label: 'Dr. Michel — WhatsApp',
+    value: '(11) 94735-9889',
+    link: 'https://wa.me/5511947359889',
+    linkLabel: 'Enviar mensagem',
   },
   {
     icon: Mail,
