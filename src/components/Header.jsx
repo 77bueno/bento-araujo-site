@@ -5,10 +5,11 @@ import ThemeToggle from './ThemeToggle'
 import logo from '../images/logobea.png'
 
 const navLinks = [
-  { to: '/',        label: 'Home',             end: true },
-  { to: '/sobre',   label: 'O Escritório' },
-  { to: '/areas',   label: 'Áreas de Atuação' },
-  { to: '/equipe',  label: 'Equipe' },
+  { to: '/',            label: 'Home',             end: true },
+  { to: '/sobre',       label: 'O Escritório' },
+  { to: '/areas',       label: 'Áreas de Atuação' },
+  { to: '/equipe',      label: 'Equipe' },
+  { to: '/localizacao', label: 'Localização' },
 ]
 
 export default function Header() {

@@ -3,11 +3,12 @@ import { Instagram, Linkedin, Facebook } from 'lucide-react'
 import logo from '../images/logobea.png'
 
 const navLinks = [
-  { to: '/',        label: 'Home' },
-  { to: '/sobre',   label: 'O Escritório' },
-  { to: '/areas',   label: 'Áreas' },
-  { to: '/equipe',  label: 'Equipe' },
-  { to: '/contato', label: 'Contato' },
+  { to: '/',            label: 'Home' },
+  { to: '/sobre',       label: 'O Escritório' },
+  { to: '/areas',       label: 'Áreas' },
+  { to: '/equipe',      label: 'Equipe' },
+  { to: '/localizacao', label: 'Localização' },
+  { to: '/contato',     label: 'Contato' },
 ]
 
 const socials = [

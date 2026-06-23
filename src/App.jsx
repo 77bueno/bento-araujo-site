@@ -11,6 +11,7 @@ import Equipe from './pages/Equipe'
 import PerfilAdvogado from './pages/PerfilAdvogado'
 import Contato from './pages/Contato'
 import Formulario from './pages/Formulario'
+import Localizacao from './pages/Localizacao'
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
             <Route path="/equipe" element={<Equipe />} />
             <Route path="/equipe/:slug" element={<PerfilAdvogado />} />
             <Route path="/contato" element={<Contato />} />
+            <Route path="/localizacao" element={<Localizacao />} />
             <Route path="/formulario" element={<Formulario />} />
             <Route path="*" element={<Home />} />
           </Routes>
