@@ -7,6 +7,7 @@ const stats = [
   { num: '15+',  label: 'anos de experiência' },
   { num: '3',    label: 'áreas de atuação' },
   { num: '2011', label: 'atuando desde' },
+  { num: '95%',  label: 'clientes que indicam' },
 ]
 
 const values = [

@@ -134,7 +134,7 @@ a:hover { color: var(--gold); }
 .grid-2 { display: grid; grid-template-columns: 1.1fr .9fr; gap: 64px; align-items: center; }
 
 /* ===== Stats ===== */
-.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .stat {
   background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 28px 24px; text-align: center; box-shadow: var(--shadow);
