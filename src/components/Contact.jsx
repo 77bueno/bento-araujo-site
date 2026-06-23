@@ -2,17 +2,14 @@ import { useState } from 'react'
 import { MapPin, Phone, MessageCircle, Mail, Clock } from 'lucide-react'
 
 const contactInfo = [
-  { icon: MapPin,        label: 'Endereço',  text: 'Av. Paulista, 1000 — Conj. 101, São Paulo/SP' },
-  { icon: Phone,         label: 'Telefone',  text: '(11) 3000-0000',                href: 'tel:+551130000000' },
+  { icon: MapPin,        label: 'Endereço',  text: 'R. Caquito, 196 — Penha de França, São Paulo/SP' },
   { icon: MessageCircle, label: 'WhatsApp',  text: '(11) 90000-0000',               href: 'https://wa.me/5511900000000' },
   { icon: Mail,          label: 'E-mail',    text: 'contato@bentoaraujo.adv.br',    href: 'mailto:contato@bentoaraujo.adv.br' },
   { icon: Clock,         label: 'Horário',   text: 'Seg. a Sex., das 9h às 18h' },
 ]
 
 const areaOptions = [
-  'Direito Civil', 'Direito Trabalhista', 'Família e Sucessões',
-  'Direito Empresarial', 'Direito do Consumidor', 'Direito Imobiliário',
-  'Direito Previdenciário', 'Direito Tributário', 'Outro',
+  'Direito Criminal', 'Direito Civil', 'Direito Trabalhista', 'Outro',
 ]
 
 const INITIAL = { nome: '', email: '', telefone: '', assunto: '', mensagem: '' }

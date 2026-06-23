@@ -1,6 +1,6 @@
 import { useRef, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Scale, Briefcase, Heart, Building2 } from 'lucide-react'
+import { Scale, Briefcase, Shield } from 'lucide-react'
 import Hero from '../components/Hero'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
@@ -9,16 +9,14 @@ import livrosImg from '../images/livros.jpg'
 
 const stats = [
   { num: '15+', label: 'anos de experiência' },
-  { num: '1.200+', label: 'casos atendidos' },
-  { num: '8', label: 'áreas de atuação' },
-  { num: '95%', label: 'clientes que indicam' },
+  { num: '3',   label: 'áreas de atuação' },
+  { num: '2011', label: 'atuando desde' },
 ]
 
 const featuredAreas = [
-  { icon: Scale,     title: 'Direito Civil',       desc: 'Contratos, responsabilidade civil, indenizações e questões patrimoniais.' },
-  { icon: Briefcase, title: 'Direito Trabalhista',  desc: 'Defesa de empregados e empregadores, acordos e ações na Justiça do Trabalho.' },
-  { icon: Heart,     title: 'Família e Sucessões',  desc: 'Divórcio, guarda, pensão, inventário, testamentos e partilha de bens.' },
-  { icon: Building2, title: 'Direito Empresarial',  desc: 'Constituição de empresas, contratos, societário e consultoria preventiva.' },
+  { icon: Shield,    title: 'Direito Criminal',    desc: 'Defesa em processos criminais, inquéritos policiais e ações penais em todas as instâncias.' },
+  { icon: Scale,     title: 'Direito Civil',       desc: 'Contratos, responsabilidade civil, indenizações e demais questões patrimoniais.' },
+  { icon: Briefcase, title: 'Direito Trabalhista', desc: 'Defesa de trabalhadores e empresas em ações de rescisão, indenizações e conflitos trabalhistas.' },
 ]
 
 const JUSTICE_IMG = 'https://images.unsplash.com/photo-1521791055366-0d553872952f?w=1920&auto=format&fit=crop&q=80'
@@ -143,7 +141,7 @@ export default function Home() {
           </div>
 
           <div style={{ textAlign: 'center', marginTop: '2.5rem' }}>
-            <Link to="/areas" className="btn btn-outline">Ver todas as 8 áreas →</Link>
+            <Link to="/areas" className="btn btn-outline">Ver detalhes das áreas →</Link>
           </div>
         </div>
       </section>

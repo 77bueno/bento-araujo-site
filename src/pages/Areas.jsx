@@ -1,58 +1,25 @@
 import { Link } from 'react-router-dom'
-import {
-  Scale, Briefcase, Heart, Building2,
-  ShoppingBag, Home, Shield, Receipt,
-} from 'lucide-react'
+import { Scale, Briefcase, Shield } from 'lucide-react'
 import PageBanner from '../components/PageBanner'
 
 const areas = [
   {
+    icon: Shield,
+    title: 'Direito Criminal',
+    desc: 'Defesa em processos criminais, inquéritos policiais e ações penais em todas as instâncias.',
+    detail: 'Atuamos na defesa de clientes em todas as fases do processo penal — desde o inquérito policial até os recursos nos tribunais superiores. Trabalhamos com crimes contra o patrimônio, crimes de trânsito, crimes contra a honra, tráfico de drogas, estelionato, crimes empresariais e demais delitos previstos no Código Penal. Garantimos uma defesa técnica rigorosa e presença ativa em audiências, diligências e julgamentos.',
+  },
+  {
     icon: Scale,
     title: 'Direito Civil',
     desc: 'Contratos, responsabilidade civil, indenizações e questões patrimoniais.',
-    detail: 'Atuamos em contratos de compra e venda, prestação de serviços, comodato e locação, bem como em ações de indenização por danos materiais e morais, revisão de contratos abusivos e reparação de vícios.',
+    detail: 'Representamos clientes em ações de indenização por danos materiais e morais, revisão e rescisão de contratos, cobranças judiciais, ações possessórias e demais demandas cíveis. Atuamos tanto na fase extrajudicial, buscando acordos e soluções negociadas, quanto no contencioso judicial em todas as instâncias da Justiça Estadual e Federal.',
   },
   {
     icon: Briefcase,
     title: 'Direito Trabalhista',
-    desc: 'Defesa de empregados e empregadores, acordos e ações na Justiça do Trabalho.',
-    detail: 'Representamos empregados em ações de horas extras, assédio moral, verbas rescisórias e estabilidade; e empregadores na defesa de reclamações, elaboração de contratos e compliance trabalhista.',
-  },
-  {
-    icon: Heart,
-    title: 'Família e Sucessões',
-    desc: 'Divórcio, guarda, pensão, inventário, testamentos e partilha de bens.',
-    detail: 'Conduzimos processos de divórcio consensual e litigioso, regulamentação de guarda e visitas, ações de alimentos, inventário judicial e extrajudicial, e elaboração de testamentos.',
-  },
-  {
-    icon: Building2,
-    title: 'Direito Empresarial',
-    desc: 'Constituição de empresas, contratos, societário e consultoria preventiva.',
-    detail: 'Assessoramos na abertura e encerramento de empresas, elaboração e revisão de contratos comerciais, resolução de conflitos societários, fusões, aquisições e due diligence.',
-  },
-  {
-    icon: ShoppingBag,
-    title: 'Direito do Consumidor',
-    desc: 'Defesa contra práticas abusivas, cobranças indevidas e danos ao consumidor.',
-    detail: 'Atuamos em ações contra cobranças indevidas, negativação indevida no SPC/Serasa, recusa de cobertura por planos de saúde, defeitos em produtos e serviços e publicidade enganosa.',
-  },
-  {
-    icon: Home,
-    title: 'Direito Imobiliário',
-    desc: 'Compra e venda, locação, usucapião, regularização e questões condominiais.',
-    detail: 'Assessoramos em transações imobiliárias, análise de contratos de compra e venda, ações de despejo, usucapião, regularização de imóveis junto aos cartórios e conflitos condominiais.',
-  },
-  {
-    icon: Shield,
-    title: 'Direito Previdenciário',
-    desc: 'Aposentadorias, benefícios do INSS, revisões e planejamento previdenciário.',
-    detail: 'Auxiliamos na concessão de aposentadoria por tempo de contribuição, especial e por invalidez, auxílio-doença, pensão por morte, BPC/LOAS e revisão de benefícios já concedidos.',
-  },
-  {
-    icon: Receipt,
-    title: 'Direito Tributário',
-    desc: 'Planejamento fiscal, defesas administrativas e recuperação de tributos.',
-    detail: 'Realizamos planejamento tributário para pessoas físicas e jurídicas, defesa em autuações fiscais, impugnações e recursos administrativos, e ações de repetição de indébito.',
+    desc: 'Defesa de trabalhadores e empresas em ações na Justiça do Trabalho.',
+    detail: 'Defendemos trabalhadores em ações de rescisão indireta, horas extras, assédio moral, verbas rescisórias não pagas, acidente de trabalho e reintegração ao emprego. Também assessoramos empresas na defesa de reclamações trabalhistas, elaboração de contratos e regularização de obrigações junto à CLT. Atuamos em audiências, recursos e execuções no âmbito da Justiça do Trabalho.',
   },
 ]
 
@@ -62,7 +29,7 @@ export default function Areas() {
       <PageBanner
         eyebrow="Áreas de Atuação"
         title="Como podemos ajudar você"
-        subtitle="Assessoria e representação jurídica completa nas principais áreas do Direito."
+        subtitle="Assessoria e representação jurídica em Direito Criminal, Civil e Trabalhista."
       />
 
       <section className="section">
@@ -87,10 +54,10 @@ export default function Areas() {
       {/* CTA */}
       <section className="section cta-strip">
         <div className="container">
-          <h2>Não encontrou sua área?</h2>
+          <h2>Tem alguma dúvida sobre seu caso?</h2>
           <p>
-            Entre em contato. Nossa equipe analisa seu caso e indica a melhor solução,
-            mesmo que seja encaminhá-lo ao profissional certo.
+            Entre em contato. Nossa equipe analisa sua situação e orienta sobre
+            a melhor estratégia jurídica para o seu caso.
           </p>
           <Link to="/contato" className="btn btn-primary">Consultar agora</Link>
         </div>
