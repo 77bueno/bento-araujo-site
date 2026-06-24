@@ -17,7 +17,7 @@ const testimonials = [
   {
     name: 'Anderson L.',
     context: 'Direito Trabalhista',
-    text: 'Fui demitido sem receber o que era meu por direito. O Dr. Michel me orientou desde o início, entrou com a ação e garantiu que eu recebesse tudo que me devia. Atendimento humano e muito competente.',
+    text: 'O Dr. Michel foi essencial na resolução do meu caso trabalhista. Profissional atencioso, que explicou cada passo com clareza e lutou pelos meus direitos até o fim. Resultado excelente e atendimento de primeira.',
     stars: 5,
   },
 ]
