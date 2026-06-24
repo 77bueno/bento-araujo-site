@@ -3,21 +3,15 @@ import { ChevronLeft, ChevronRight, Star } from 'lucide-react'
 
 const testimonials = [
   {
-    name: 'Carlos Eduardo M.',
-    context: 'Processo trabalhista',
-    text: 'O escritório me atendeu com muita atenção e profissionalismo. A Dra. Mariana foi clara em todas as etapas do processo, e o resultado foi além do que eu esperava. Recomendo sem hesitação.',
+    name: 'Roberto A.',
+    context: 'Direito Criminal',
+    text: 'Fui indiciado injustamente e estava desesperado. O Dr. Samuel assumiu meu caso com seriedade e dedicação, acompanhou cada etapa do processo e conseguiu minha absolvição. Profissional exemplar.',
     stars: 5,
   },
   {
-    name: 'Fernanda S.',
-    context: 'Inventário e partilha',
-    text: 'Passei por um momento muito difícil com o falecimento do meu pai. O Dr. Ricardo me acompanhou com sensibilidade e competência, resolvendo tudo de forma rápida e justa.',
-    stars: 5,
-  },
-  {
-    name: 'Paulo R. — Empresa XYZ',
-    context: 'Assessoria empresarial',
-    text: 'Parceiros estratégicos para nossa empresa. O suporte jurídico preventivo que recebemos evitou problemas sérios. Equipe altamente qualificada e sempre disponível.',
+    name: 'Márcia F.',
+    context: 'Direito Civil',
+    text: 'Tive um problema sério com um contrato de compra e venda que me prejudicou muito. O escritório agiu rápido, explicou tudo com clareza e resolveu a situação da melhor forma possível. Recomendo muito.',
     stars: 5,
   },
 ]
