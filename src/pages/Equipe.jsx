@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import adv1 from '../images/adv1.png'
-import adv2 from '../images/adv2.png'
+import adv2 from '../images/adv3.jpeg'
 import { ArrowRight } from 'lucide-react'
 import PageBanner from '../components/PageBanner'
 import FadeIn from '../components/FadeIn'
