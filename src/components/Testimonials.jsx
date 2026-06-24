@@ -14,6 +14,12 @@ const testimonials = [
     text: 'Tive um problema sério com um contrato de compra e venda que me prejudicou muito. O escritório agiu rápido, explicou tudo com clareza e resolveu a situação da melhor forma possível. Recomendo muito.',
     stars: 5,
   },
+  {
+    name: 'Anderson L.',
+    context: 'Direito Trabalhista',
+    text: 'Fui demitido sem receber o que era meu por direito. O Dr. Michel me orientou desde o início, entrou com a ação e garantiu que eu recebesse tudo que me devia. Atendimento humano e muito competente.',
+    stars: 5,
+  },
 ]
 
 export default function Testimonials() {
